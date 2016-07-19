@@ -54,7 +54,7 @@
     [self.view addSubview:username];
     
     password=[[UITextField alloc] initWithFrame:CGRectMake(50,180,self.view.frame.size.width-100,40)];
-    password.placeholder=@"Password";
+    password.placeholder=@"Type Password";
     password.backgroundColor=[UIColor whiteColor];
     password.layer.cornerRadius=7;
     password.layer.borderWidth=2;
