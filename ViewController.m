@@ -161,10 +161,10 @@
 -(void)ButtonClicked:(UIButton *)btn
 {
     if (username.text.length>0 && password.text.length>0) {
-        NSLog(@"Successful login");
+        NSLog(@"Successful login,  Congrats!!!!");
     }
     else{
-        NSLog(@"Please enter something");
+        NSLog(@"Please enter something, Try Again");
     }
 }
 
